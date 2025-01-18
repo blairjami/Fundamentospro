@@ -24,7 +24,7 @@ class Estudiante(Persona):
         return f"Hola, soy {self.nombre}, estudiante de {self.carrera}."
 
 
-# Clase derivada: Profesor (hereda de Persona)
+# Clase derivada: Profesor (hereda de Persona),
 class Profesor(Persona):
     def __init__(self, nombre, edad, materia):
         super().__init__(nombre, edad)
